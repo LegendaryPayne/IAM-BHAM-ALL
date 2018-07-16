@@ -1,0 +1,165 @@
+body {
+    background-color: darkgray;
+    font-family: 'Titan One', cursive;
+
+
+}
+h2, p, .readme-wrapper {
+    text-align: center;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: red;
+}
+
+a:visited {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+    color: darkred;
+    cursor: pointer;
+    font: bold;
+}
+
+a:active {
+    text-decoration: none;
+    color: red;
+}
+.boxes {
+    display: block;
+    border: 2px solid black;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+}
+
+span {
+    color: blue;
+    font-weight: 500;
+}
+.width {
+    width: 20%;
+}
+#box1{
+    background-color: blueviolet;
+}
+
+#box2{
+    background-color: silver;
+}
+
+#box3{
+    background-color: gold;
+}
+
+#box4{
+    background-color: palegreen;
+}
+.image {
+    width: 1em;
+    height: 1em;
+    background-color: black;
+
+}
+
+h1 {
+    color: hotpink;
+}
+.top3 {
+    color: forestgreen;
+}
+.nottop3 {
+    color: brown;
+}
+#number1 {
+    color: aquamarine;
+}
+#number2 {
+    color: orange;
+}
+#number3 {
+    color: navy;
+}
+#number4 {
+    color: maroon;
+}
+#number5 {
+    color: coral;
+}
+.listing {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+#ul1 {
+    color: rebeccapurple;
+}
+#ul2 {
+    color: salmon;
+}
+#ul3 {
+    color: tan;
+}
+#li1 {
+    color: teal;
+}
+#li2 {
+    color: thistle;
+}
+#li3 {
+    color: tomato;
+}
+#li4 {
+    color: turquoise;
+}
+#li5 {
+    color: aquamarine;
+}
+#li6 {
+    color: azure;
+}
+#li7 {
+    color: antiquewhite;
+}
+#li8 {
+    color: crimson;
+}
+#li9 {
+    color: chocolate;
+}
+#li10 {
+    color: steelblue;
+}
+#li11 {
+    color: fuchsia;
+}
+#li12 {
+    color: greenyellow;
+}
+#li13 {
+    color: papayawhip;
+}
+#li14 {
+    color: orange;
+}
+#li15 {
+    color: darkgoldenrod;
+}
+.inline-block {
+    display: inline-block;
+
+}
+.center-block {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    align-self: center;
+    box-align: center;
+    display: inline-block;
+}

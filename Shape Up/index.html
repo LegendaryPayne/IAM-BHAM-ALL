@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shape Up of Shape Out</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="container">
+    <div class="row text-center">
+        <div class="col-6 my-1">
+            <p>Rectangle</p>
+            <label for="rHeight">Enter Height:</label>
+            <input type="number" id="rHeight" value="">
+
+            <label for="Width">Enter Width:</label>
+            <input type="number" id="rWidth">
+
+            <button id="SubmitRectangle">Click to Add Shape</button>
+        </div>
+        <div class="col-6 my-1">
+            <p>Square</p>
+            <label for="Length">Enter Length of Sides:</label>
+            <input type="number" id="Length">
+
+
+            <button id="SubmitSquare">Click to Add Shape</button>
+        </div>
+        <div class="col-6 my-1">
+            <p>Circle</p>
+            <label for="radius">Enter Radius:</label>
+            <input type="number" id="radius">
+
+
+            <button id="SubmitCircle">Click to Add Shape</button>
+        </div>
+        <div class="col-6 my-1">
+            <p id='triangle'>Isoceles Right Triangle</p>
+                <label for="height">Enter Height:</label>
+                <input type="number" id="height">
+
+
+                <button id="SubmitTriangle">Click to Add Shape</button>
+
+        </div>
+    </div>
+    <div class="row stitched">
+        <div class="col my-auto">
+            <h3>Shape Name: <span id="1"></span></h3><br>
+            <h3>Width: <span id="2"></span></h3><br>
+            <h3>Height: <span id="3"></span></h3><br>
+            <h3>Radius: <span id="4"></span></h3><br>
+            <h3>Area: <span id="5"></span></h3><br>
+            <h3>Perimeter: <span id="6"></span></h3>
+        </div>
+        <div class="col">
+    <div class="canvas"></div></div>
+</div>
+<div class="text-center">
+    <button id="clearAll">Click Here To Remove All Shapes</button>
+</div>
+</div>
+
+    <body>
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script src="apps.js"></script>
+    </body>
+
+</html>

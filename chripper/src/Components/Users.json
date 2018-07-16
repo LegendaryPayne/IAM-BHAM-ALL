@@ -1,0 +1,18 @@
+
+{
+        "id": 1,
+        "name":
+            {
+                "firstname": "Jimmie",
+                "lastname": "Payne"
+            }
+        ,
+        "image": "./Components/Images/User1.jpg",
+        "user": "jlpayne111",
+        "chirps": [
+            {
+            "emotion": "test",
+            "message": "test",
+            "date": "test"}
+        ]
+}
