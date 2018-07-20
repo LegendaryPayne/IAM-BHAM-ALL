@@ -21,7 +21,7 @@ function noMorethanStated(text, num) {
 
 let CreateLinks = (data) => {
 let {id, title, content, _created: date} = data
-  let whenPosted = postedSince(date)
+let whenPosted = postedSince(date)
 
   if (!isNaN(+id)) {
       return (
@@ -31,7 +31,6 @@ let {id, title, content, _created: date} = data
           <small>{whenPosted[0]} ago</small>
         </div>
         <p className="mb-1">{noMorethanStated(content, 100)}</p>
-        <small>Donec id elit non mi porta.</small>
       </NavLink>
 )      
   }

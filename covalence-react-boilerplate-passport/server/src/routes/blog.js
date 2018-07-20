@@ -1,10 +1,12 @@
 import { Router } from 'express';
 import Table from '../table';
+import tagsRouter from './tags';
+import { row , rows } from '../config/db'
 let router = Router();
 let blogs = new Table("Blogs");
 
 
-
+router.use('/tags', tagsRouter)
 
 router.get('/:id?', (req, res) => {
 let id = req.params.id;
@@ -14,6 +16,7 @@ if(id) {
     })
 } else {
     blogs.getAll().then(results => {
+        rows(spGetTagsForBLogs, [id])
         res.json(results);
     })
 }
@@ -21,9 +24,10 @@ if(id) {
 });
 
 router.post('/', (req, res) => {
-    blogs.insert(req.body).then(results => {
-        res.json(results);
-    })
+    console.log(req.body)
+    // blogs.insert(req.body).then(results => {
+    //     res.json(results);
+    // })
 });
 
 router.put('/:id', (req, res) => {
